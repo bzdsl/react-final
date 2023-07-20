@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
         {/* button */}
-        <div className='flex items-center justify-center gap-2 mt-[136px]'>
+        <div className='flex items-center justify-center gap-2 mt-[80px]'>
           <span className='w-[15px] h-[3px] bg-[#EEEEEE] rounded-[50px]'></span>
           <span className='w-[25.3px] h-2 bg-[#414880] rounded-[50px]'></span>
           <span className='w-[15px] h-[3px] bg-[#EEEEEE] rounded-[50px]'></span>
