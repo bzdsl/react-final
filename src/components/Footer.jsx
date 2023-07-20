@@ -4,7 +4,7 @@ import React from "react";
 import logo_footer from "../assets/imgs/logo-footer.png";
 import bg_footer_01 from "../assets/imgs/bg-footer-01.png";
 import bg_footer_02 from "../assets/imgs/bg-footer-02.png";
-import { BsTwitter } from "react-icons/bs";
+// import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
