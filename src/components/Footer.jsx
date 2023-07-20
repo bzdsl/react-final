@@ -4,9 +4,9 @@ import React from "react";
 import logo_footer from "../assets/imgs/logo-footer.png";
 import bg_footer_01 from "../assets/imgs/bg-footer-01.png";
 import bg_footer_02 from "../assets/imgs/bg-footer-02.png";
-// import { BsTwitter } from "react-icons/bs";
-// import { SiLinkedin } from "react-icons/si";
-// import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
+import { SiLinkedin } from "react-icons/si";
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import BackToTopButton from "./BackToTopButton";
@@ -132,11 +132,11 @@ const Footer = () => {
 
         <div className='md:flex-row flex flex-col gap-4 items-center justify-between mt-[154px] pb-[90px]'>
           <div className='flex items-center justify-between gap-[45px] text-white'>
-            {/* <BsTwitter className='text-[25px] ' />
+            <BsTwitter className='text-[25px] ' />
             <FaFacebookF className='text-[25px]' />
             <SiLinkedin className='text-[25px] ' />
             <FaYoutube className='text-[25px]' />
-            <FaInstagram className='text-[25px]' /> */}
+            <FaInstagram className='text-[25px]' />
           </div>
           <p className='text-[#D7DBFF] font-normal tracking-widest text-base'>
             © AltDesain Studio 2021 - All right reserved.

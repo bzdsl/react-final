@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
-    "@fortawesome/free-regular-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fontawesome/fontawesome-svg-core": "^6.4.0",
+    "@fontawesome/free-brands-svg-icons": "^6.4.0",
+    "@fontawesome/free-regular-svg-icons": "^6.4.0",
+    "@fontawesome/free-solid-svg-icons": "^6.4.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
