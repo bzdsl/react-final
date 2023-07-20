@@ -7,7 +7,7 @@ import bg_footer_02 from "../assets/imgs/bg-footer-02.png";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import BackToTopButton from "./BackToTopButton";
 
