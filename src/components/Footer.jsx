@@ -4,11 +4,7 @@ import React from "react";
 import logo_footer from "../assets/imgs/logo-footer.png";
 import bg_footer_01 from "../assets/imgs/bg-footer-01.png";
 import bg_footer_02 from "../assets/imgs/bg-footer-02.png";
-import { BsTwitter } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
-import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
-import { faPlay } from "@fortawesome/free-solid-svg-icons";
+
 import BackToTopButton from "./BackToTopButton";
 
 const Footer = () => {
@@ -48,35 +44,53 @@ const Footer = () => {
             <ul className='text-[#D7DBFF] text-base font-normal tracking-widest flex flex-col gap-[11px]'>
               <li className='mt-[24px] flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
-                <p href='#' className=' '>
+                <a
+                  href='#'
+                  className='hover:text-gray-500 ease-in-out duration-300'>
                   Home
-                </p>
+                </a>
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
-                <p>About</p>
+                <a
+                  href='#'
+                  className='hover:text-gray-500 ease-in-out duration-300'>
+                  About
+                </a>
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
-                <p>Services</p>
+                <a
+                  href='#'
+                  className='hover:text-gray-500 ease-in-out duration-300'>
+                  Services
+                </a>
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
-                <p>Gallery</p>
+                <a
+                  href='#'
+                  className='hover:text-gray-500 ease-in-out duration-300'>
+                  Gallery
+                </a>
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
-                <p>Team</p>
+                <a
+                  href='#'
+                  className='hover:text-gray-500 ease-in-out duration-300'>
+                  Team
+                </a>
               </li>
             </ul>
           </div>
@@ -88,7 +102,7 @@ const Footer = () => {
             <ul className='text-[#D7DBFF] text-base font-normal tracking-widest flex flex-col gap-[11px]'>
               <li className='mt-[24px] flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
                 <a
                   href='#'
@@ -98,7 +112,7 @@ const Footer = () => {
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
                 <a
                   href='#'
@@ -108,7 +122,7 @@ const Footer = () => {
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
                 <a
                   href='#'
@@ -118,7 +132,7 @@ const Footer = () => {
               </li>
               <li className=' flex items-center '>
                 <span className='text-[13px] mr-2'>
-                  <FontAwesomeIcon icon={faPlay} color='white' />
+                  <i className='fa-solid fa-play'></i>
                 </span>
                 <a
                   href='#'
@@ -132,11 +146,21 @@ const Footer = () => {
 
         <div className='md:flex-row flex flex-col gap-4 items-center justify-between mt-[154px] pb-[90px]'>
           <div className='flex items-center justify-between gap-[45px] text-white'>
-            <BsTwitter className='text-[25px] ' />
-            <FaFacebookF className='text-[25px]' />
-            <SiLinkedin className='text-[25px] ' />
-            <FaYoutube className='text-[25px]' />
-            <FaInstagram className='text-[25px]' />
+            <span className='text-[25px]'>
+              <i className='fa-brands fa-facebook-f'></i>
+            </span>
+            <span className='text-[25px]'>
+              <i className='fa-brands fa-twitter'></i>
+            </span>
+            <span className='text-[25px]'>
+              <i className='fa-brands fa-linkedin-in'></i>
+            </span>
+            <span className='text-[25px]'>
+              <i className='fa-brands fa-youtube'></i>
+            </span>
+            <span className='text-[25px]'>
+              <i className='fa-brands fa-instagram'></i>
+            </span>
           </div>
           <p className='text-[#D7DBFF] font-normal tracking-widest text-base'>
             © AltDesain Studio 2021 - All right reserved.
