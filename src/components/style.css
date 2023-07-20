@@ -1,0 +1,28 @@
+/** @format */
+
+.watch-video-button {
+  margin-left: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #484848;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.watch-video-button svg {
+  font-size: 3rem;
+  margin-right: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.watch-video-button span {
+  color: #091156;
+}
